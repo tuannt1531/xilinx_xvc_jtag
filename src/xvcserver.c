@@ -251,7 +251,7 @@ int main(int argc, char **argv)
             fprintf(stderr, "usage: %s [-v]\n", *argv);
             return 1;
         }
-    printf("start xvc_server with %s, port = %d", argv[1], atoi(argv[2]));
+    printf("start xvc_server with %s, port = %d \n", argv[1], atoi(argv[2]));
 
     fd_uio = open(argv[1], O_RDWR);
     if (fd_uio < 1)
